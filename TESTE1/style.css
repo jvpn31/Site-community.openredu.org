@@ -1,0 +1,27 @@
+.cabecalho{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    position: absolute;
+
+}
+
+.cabecalho_logomarca{
+    width: 25%;
+}
+
+.cabecalho__navegacao {
+ 
+   
+}
+
+.cabecalho_link{
+    display: flex;
+    text-decoration: none;
+}
+
+
