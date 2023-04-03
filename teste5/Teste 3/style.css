@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --preto:#000000;
+    --cinza:#CAC7C4;
+}
+
+body{
+    color: var(--preto);
+    background: #ffffff;
+}
+
+
+.logomarca{
+    max-width: 15%;
+    height: auto;
+}
+
+.cabecalho_navegacao{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding: 18px 40px;
+   box-shadow: 0 0.1rem 0.5rem #ccc;
+   width: 100%;
+   background: white;
+   transition: all 0.5s;
+}
+
+.cabecalho_navegacao ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.teste{
+  
+}
+/*
+.cabecalho__link {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+    text-transform: uppercase;
+
+}
+
+.cabecalho__link:hover{
+
+}
+*/
+
+
+

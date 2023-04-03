@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+.cabecalho{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    font-family: 'Montserrat', sans-serif;
+
+
+  
+}
+
+.cabecalho_logo{
+    width: 230px;
+    height: 2.667em;
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
