@@ -1,0 +1,14 @@
+h1{
+    padding:40px;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}

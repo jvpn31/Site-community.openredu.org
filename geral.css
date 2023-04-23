@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    padding-top: 80px;
+    min-height: 100vh;
+    background: url() no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+/* Estilo Rodapé*/
+
+footer{
+    background-color: #158AC4;
+    padding-top: 1em;
+    padding-bottom: 40px;
+    padding: 15px;
+    color: white;
+
+
+
+}
+
+footer .rodapecontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .rodapecontainer ul{
+   width: 50%;
+}
+
+footer .rodapecontainer  p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ 
+.redeslogo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+
+@media(max-width:991px){
+    footer .rodapecontainer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .rodapecontainer ul{
+        width: 100%;
+        margin-bottom: 20px;
+ 
+    }
+}
+
