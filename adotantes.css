@@ -1,0 +1,64 @@
+.titulo-principal{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+.subtitulo{
+    margin-bottom: 40px;
+    margin-left: 1em;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.adotantes ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.adotantes p{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.foto_adotantes{
+    width: 220;
+    height: 220;
+}
+
+.adotantes2{
+    margin-top: 20px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.adotantes2 li{
+    margin-top: 20px;
+}
+
+
+@media(max-width:991px){
+    .adotantes ul{
+        display: flex;
+        flex-direction: column; }
+
+        .subtitulo{
+            text-align: center;
+        }
+
+        .adotantes2 li{
+            text-align: center;
+            list-style-type: none;
+        }
+}
